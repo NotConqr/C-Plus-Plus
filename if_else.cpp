@@ -22,6 +22,8 @@ int main() {
         std::cout << "The random number is equal to the min number, which is " << random_ << std::endl;
     } else {
         std::cout << "The random number doesn't match any special numbers. The number is " << random_ << std::endl;
+        //   ^^            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^            ^^^         ^^^
+        //  print                               custom text                                   varible       end
     }
 
     return 0;
