@@ -13,4 +13,5 @@ int main() {
       std::cout << "This File Is From Sever" << "\n" << std::endl;
   }
   wait(5);
+  return 0;
 }
