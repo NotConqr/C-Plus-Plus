@@ -9,7 +9,9 @@ void wait(int sec) {
 }
 
 int main() {
-  for (int i = 0; i < 10; i++) {
+    wait(2);
+  for (int i = 0; i < 100; i++) {
+      wait(0.1);
       std::cout << "This File Is From Sever" << "\n" << std::endl;
   }
   wait(5);
